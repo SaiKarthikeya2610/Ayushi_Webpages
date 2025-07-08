@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushi - Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ayush.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header_logo">
+            <img src="images/logo-removebg-preview.png" alt="Ayushi Logo" style="height: 40px;"> 
+            <h1 class="header_title">Ayushi</h1>
+        </div>
+        <nav class="header_a-container">
+            <ul>
+                <li><a class="header_link" href="contact.html">Contact Us</a></li>
+                <li><a class="header_link" href="signin.html">Sign In</a></li>
+                <li><a class="header_link" href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="form-container">
+            <h1 class="hero_title">Create Your Account</h1>
+            <p class="hero_descrption">Join Ayushi today! Fill in your details to get started.</p>
+            <form>
+                <label for="signup-name" class="visually-hidden">Name</label>
+                <input type="text" id="signup-name" placeholder="Name" required />
+
+                <label for="signup-email" class="visually-hidden">Email</label>
+                <input type="email" id="signup-email" placeholder="Email" required />
+
+                <label for="signup-password" class="visually-hidden">Password</label>
+                <input type="password" id="signup-password" placeholder="Password" required />
+                
+                <label for="signup-confirm-password" class="visually-hidden">Confirm Password</label>
+                <input type="password" id="signup-confirm-password" placeholder="Confirm Password" required />
+
+                <div class="buttons">
+                    <button type="submit" class="send">Sign Up</button>
+                    <button type="reset" class="cancel">Cancel</button>
+                </div>
+            </form>
+            <p style="margin-top: 20px; font-size: 14px; color: #666;">
+                Already have an account? <a href="signin.html" class="header_link">Sign In here</a>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
